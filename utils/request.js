@@ -8,8 +8,8 @@ import {
 
 // 创建axios实例
 const service = axios.create({
-   baseURL: 'http://118.31.74.90:8090', // api的base_url
-  //baseURL: 'http://localhost:8004/', // api的base_url
+   //baseURL: 'http://118.31.74.90:8091', // api的base_url
+  baseURL: 'http://localhost:8004', // api的base_url
   timeout: 20000 // 请求超时时间
 })
 

@@ -1,6 +1,6 @@
 import request from '@/utils/request'
 export default {
-  getBannerList() {
+  getListBanner() {
     return request({
       url: `/educms/bannerfront/getAllBanner`,
       method: 'get'
