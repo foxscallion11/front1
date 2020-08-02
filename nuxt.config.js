@@ -13,14 +13,14 @@ module.exports = {
           },
     
           proxy: {
-    
-            '/api': 'http://localhost:8004'
-    
+		    
+             '/api': 'http://118.31.74.90:8090' 
           
     
     },
 
   /*
+  'http://localhost:8004'
   ** Headers of the page
   */
   head: {
